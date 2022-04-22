@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ai Object Detection</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+      <style>
+          body {
+              background: linear-gradient(to right, #d3cce3, #e9e4f0);
+          }
+          
+          h2 {
+            margin: 40px auto;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+          }
+
+          form {
+            font-family: 'Roboto', sans-serif;
+          }
+
+          button {
+              margin: 30px auto;
+              display: block !important;
+          }
+      </style>
+<!--     <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-family: 'Rubik', sans-serif;">AI Object Detection <sup><i>(Service)</i></sup></a>
+          </div>
+      </nav>
+      <h2>Try our service for free.</h2>
+      <form method="POST" enctype="multipart/form-data">
+        <div class="mb-3" style="margin: 20px auto; width: 40% !important; min-width: 200px !important;">
+          <label for="media_file" style="text-align: center; margin-bottom: 10px;"><u>Upload a video file or photo of any format for automatically detecting objects in it.</u></label>
+          <input type="file" class="form-control" name="media_file" id="media_file" accept=".jpg,.jpeg,.png,.mp4" />
+        </div>
+          <button type="submit" class="btn btn-dark">Upload</button>
+      </form>
+<!-- 	<script src="index.js"></script> -->
+  </body>
+</html>
